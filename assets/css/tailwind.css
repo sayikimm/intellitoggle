@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any project-wide custom styles below */
+html,
+body {
+    height: 100%;
+}
+
+/* Avoid using @apply here to prevent build-time @apply resolution issues; use utility classes in components instead. */

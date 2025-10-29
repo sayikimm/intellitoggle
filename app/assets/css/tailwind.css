@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Project-wide styles for app/ directory */
+html,
+body {
+    height: 100%;
+}
+
+/* Keep component styling via utility classes to avoid @apply build-time issues */

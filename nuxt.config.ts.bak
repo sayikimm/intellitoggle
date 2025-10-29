@@ -1,0 +1,13 @@
+export default defineNuxtConfig({
+  css: ['~/assets/css/tailwind.css'],
+  build: {
+    transpile: []
+  },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+  // pages: true  // leave this as default, or set false if you really don't want pages
+})
